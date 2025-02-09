@@ -5,7 +5,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Button from 'react-bootstrap/Button';
 import { Link } from 'react-router-dom';
-import { BsChevronDown } from "react-icons/bs";
+// import { BsChevronDown } from "react-icons/bs";
 import { FaSearch } from "react-icons/fa";
 
 export default function Header() {
@@ -23,7 +23,7 @@ export default function Header() {
                                         className="px-3 py-3 rounded-3 bg-transparent d-flex justify-content-between dropdown-nav-btn"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         <h5 className="fw-normal mb-0">Pakistan</h5>
-                                        <p className="nav-dropdown-btn mb-0"><BsChevronDown /></p>
+                                        {/* <p className="nav-dropdown-btn mb-0"><BsChevronDown /></p> */}
                                     </button>
                                     <div className="dropdown-menu nav-menu">
                                         <a href="#" className="text-decoration-none text-black location-item">
